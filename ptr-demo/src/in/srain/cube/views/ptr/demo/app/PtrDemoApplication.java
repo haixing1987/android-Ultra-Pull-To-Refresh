@@ -18,7 +18,7 @@ public class PtrDemoApplication extends Application {
     public void onCreate() {
         super.onCreate();
         instance = this;
-
+        System.out.print("test");
         String environment = "";
 
         if (environment.equals("production")) {
